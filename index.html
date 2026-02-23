@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>sDisclose — Zero-knowledge trust</title>
+    <meta
+      name="description"
+      content="Zero-knowledge proof infrastructure for privacy-preserving verification, compliance, and post-quantum secure systems."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <div class="bg-glow"></div>
+
+    <header class="container header">
+      <div class="brand">s<span>Disclose</span></div>
+
+      <nav class="nav">
+        <a href="#solutions">Solutions</a>
+        <a href="#platform">Platform</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <h1>Zero-knowledge trust for a post-quantum world</h1>
+        <p class="sub">
+          sDisclose helps teams prove identity, compliance, and data integrity without exposing sensitive information.
+          Our infrastructure combines modern ZK proof systems with post-quantum security design to keep your stack future-ready.
+        </p>
+
+        <div class="cta">
+          <a class="btn primary" href="#contact">Book a Demo</a>
+          <a class="btn" href="#contact">Talk to our Team</a>
+        </div>
+      </section>
+
+      <section id="solutions" class="section">
+        <h2>Solutions</h2>
+
+        <div class="grid">
+          <article class="card">
+            <h3>Private Identity Verification</h3>
+            <p>Prove user attributes (age, residency, accreditation) with selective disclosure and no raw PII exposure.</p>
+          </article>
+
+          <article class="card">
+            <h3>Compliance Automation</h3>
+            <p>Attach cryptographic proofs to every policy check for machine-verifiable, audit-ready controls.</p>
+          </article>
+
+          <article class="card">
+            <h3>Post-Quantum Migration</h3>
+            <p>Deploy hybrid trust architecture that integrates ZK systems with PQ-safe key and signature strategies.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="platform" class="section">
+        <h2>Why teams choose sDisclose</h2>
+
+        <div class="grid">
+          <article class="card">
+            <h3>Fast proving stack</h3>
+            <p>Optimized circuit workflows and recursive proofs reduce overhead for high-volume use cases.</p>
+            <p class="hint">Up to 80% lower proving overhead*</p>
+          </article>
+
+          <article class="card">
+            <h3>Developer-first APIs</h3>
+            <p>Integrate with wallets, policy engines, and verification gateways via clean APIs and SDKs.</p>
+            <p class="hint">Deploy in days, not quarters</p>
+          </article>
+
+          <article class="card">
+            <h3>Audit-grade observability</h3>
+            <p>Every generated proof is traceable with immutable metadata for regulators and security teams.</p>
+            <p class="hint">Cryptographic evidence by default</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="contact-box">
+          <h2>Launch private-by-design workflows</h2>
+          <p>Ready to secure your platform with zero-knowledge systems?</p>
+
+          <!-- simplest “contact” to start: mailto -->
+          <p class="email">
+            Email:
+            <a href="mailto:hello@sdisclose.com">hello@sdisclose.com</a>
+          </p>
+
+          <!-- Optional: add a real form later (Formspree/Getform) -->
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p class="small">
+          *Illustrative benchmark based on internal reference circuits. © <span id="year"></span> sDisclose — Post-Quantum Secure.
+        </p>
+      </footer>
+    </main>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
